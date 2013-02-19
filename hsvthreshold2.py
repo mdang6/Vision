@@ -139,6 +139,8 @@ def contours(img):
 					cv2.circle(ret, (int(x), int(y)), 5, np.array([0.0, 0.0, 255.0]), -1)
 	
 	return ret
+#def erosion(src,dist,element,anchor,iterations,borderType,borderValue)
+
 
 def corners(pts, img):
 	pts = np.array(pts)
